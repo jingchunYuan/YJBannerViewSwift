@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E041B41F0F6F1C0046AD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041B31F0F6F1C0046AD6F /* AppDelegate.swift */; };
+		63E041B61F0F6F1C0046AD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041B51F0F6F1C0046AD6F /* ViewController.swift */; };
+		63E041B91F0F6F1C0046AD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E041B71F0F6F1C0046AD6F /* Main.storyboard */; };
+		63E041BB1F0F6F1C0046AD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E041BA1F0F6F1C0046AD6F /* Assets.xcassets */; };
+		63E041BE1F0F6F1C0046AD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E041BC1F0F6F1C0046AD6F /* LaunchScreen.storyboard */; };
+		63E041DE1F0F75060046AD6F /* YJBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041DD1F0F75060046AD6F /* YJBannerView.swift */; };
+		63E041F11F0F756A0046AD6F /* YJBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041DD1F0F75060046AD6F /* YJBannerView.swift */; };
+		63E041F21F0F756E0046AD6F /* YJBannerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 63E041DD1F0F75060046AD6F /* YJBannerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		63E041F51F0F7C8C0046AD6F /* YJBannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041F41F0F7C8C0046AD6F /* YJBannerViewCell.swift */; };
+		63E041F61F0F7C8C0046AD6F /* YJBannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E041F41F0F7C8C0046AD6F /* YJBannerViewCell.swift */; };
+		8D4ED00E0E509B7C7FA46C5A /* Pods_YJBannerViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172428A332A70449BA62DA09 /* Pods_YJBannerViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172428A332A70449BA62DA09 /* Pods_YJBannerViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJBannerViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5447353997F32A6C8D48DF43 /* Pods-YJBannerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJBannerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJBannerViewDemo/Pods-YJBannerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		63E041B01F0F6F1C0046AD6F /* YJBannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJBannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E041B31F0F6F1C0046AD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E041B51F0F6F1C0046AD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E041B81F0F6F1C0046AD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E041BA1F0F6F1C0046AD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E041BD1F0F6F1C0046AD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E041BF1F0F6F1C0046AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E041DD1F0F75060046AD6F /* YJBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBannerView.swift; sourceTree = "<group>"; };
+		63E041E41F0F75560046AD6F /* YJBannerViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YJBannerViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E041E61F0F75560046AD6F /* YJBannerViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJBannerViewFramework.h; sourceTree = "<group>"; };
+		63E041E71F0F75560046AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E041F41F0F7C8C0046AD6F /* YJBannerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBannerViewCell.swift; sourceTree = "<group>"; };
+		9854A4C160F1343ABE07A863 /* Pods-YJBannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJBannerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJBannerViewDemo/Pods-YJBannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E041AD1F0F6F1C0046AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4ED00E0E509B7C7FA46C5A /* Pods_YJBannerViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E041E01F0F75560046AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D82845300D054188DCE873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5447353997F32A6C8D48DF43 /* Pods-YJBannerViewDemo.debug.xcconfig */,
+				9854A4C160F1343ABE07A863 /* Pods-YJBannerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63E041A71F0F6F1C0046AD6F = {
+			isa = PBXGroup;
+			children = (
+				63E041DC1F0F74F50046AD6F /* YJBannerView */,
+				63E041B21F0F6F1C0046AD6F /* YJBannerViewDemo */,
+				63E041E51F0F75560046AD6F /* YJBannerViewFramework */,
+				63E041B11F0F6F1C0046AD6F /* Products */,
+				37D82845300D054188DCE873 /* Pods */,
+				660B45836B4DBCDC2CD7094B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63E041B11F0F6F1C0046AD6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E041B01F0F6F1C0046AD6F /* YJBannerViewDemo.app */,
+				63E041E41F0F75560046AD6F /* YJBannerViewSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E041B21F0F6F1C0046AD6F /* YJBannerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63E041B31F0F6F1C0046AD6F /* AppDelegate.swift */,
+				63E041B51F0F6F1C0046AD6F /* ViewController.swift */,
+				63E041B71F0F6F1C0046AD6F /* Main.storyboard */,
+				63E041BA1F0F6F1C0046AD6F /* Assets.xcassets */,
+				63E041BC1F0F6F1C0046AD6F /* LaunchScreen.storyboard */,
+				63E041BF1F0F6F1C0046AD6F /* Info.plist */,
+			);
+			path = YJBannerViewDemo;
+			sourceTree = "<group>";
+		};
+		63E041DC1F0F74F50046AD6F /* YJBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				63E041F31F0F7C260046AD6F /* Views */,
+				63E041DD1F0F75060046AD6F /* YJBannerView.swift */,
+			);
+			path = YJBannerView;
+			sourceTree = "<group>";
+		};
+		63E041E51F0F75560046AD6F /* YJBannerViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				63E041E61F0F75560046AD6F /* YJBannerViewFramework.h */,
+				63E041E71F0F75560046AD6F /* Info.plist */,
+			);
+			path = YJBannerViewFramework;
+			sourceTree = "<group>";
+		};
+		63E041F31F0F7C260046AD6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63E041F41F0F7C8C0046AD6F /* YJBannerViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		660B45836B4DBCDC2CD7094B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172428A332A70449BA62DA09 /* Pods_YJBannerViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63E041E11F0F75560046AD6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E041F21F0F756E0046AD6F /* YJBannerView.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63E041AF1F0F6F1C0046AD6F /* YJBannerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E041C21F0F6F1C0046AD6F /* Build configuration list for PBXNativeTarget "YJBannerViewDemo" */;
+			buildPhases = (
+				588EB8E72A87134E76733FE4 /* [CP] Check Pods Manifest.lock */,
+				63E041AC1F0F6F1C0046AD6F /* Sources */,
+				63E041AD1F0F6F1C0046AD6F /* Frameworks */,
+				63E041AE1F0F6F1C0046AD6F /* Resources */,
+				1FA9AB8089602B174611EE43 /* [CP] Embed Pods Frameworks */,
+				13D125EAE9D58BE24DD5F702 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJBannerViewDemo;
+			productName = YJBannerViewDemo;
+			productReference = 63E041B01F0F6F1C0046AD6F /* YJBannerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E041E31F0F75560046AD6F /* YJBannerViewFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E041ED1F0F75560046AD6F /* Build configuration list for PBXNativeTarget "YJBannerViewFramework" */;
+			buildPhases = (
+				63E041DF1F0F75560046AD6F /* Sources */,
+				63E041E01F0F75560046AD6F /* Frameworks */,
+				63E041E11F0F75560046AD6F /* Headers */,
+				63E041E21F0F75560046AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJBannerViewFramework;
+			productName = YJBannerViewFramework;
+			productReference = 63E041E41F0F75560046AD6F /* YJBannerViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E041A81F0F6F1C0046AD6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "侯跃军";
+				TargetAttributes = {
+					63E041AF1F0F6F1C0046AD6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33K3DU6932;
+						ProvisioningStyle = Automatic;
+					};
+					63E041E31F0F75560046AD6F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33K3DU6932;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63E041AB1F0F6F1C0046AD6F /* Build configuration list for PBXProject "YJBannerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E041A71F0F6F1C0046AD6F;
+			productRefGroup = 63E041B11F0F6F1C0046AD6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E041AF1F0F6F1C0046AD6F /* YJBannerViewDemo */,
+				63E041E31F0F75560046AD6F /* YJBannerViewFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E041AE1F0F6F1C0046AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E041BE1F0F6F1C0046AD6F /* LaunchScreen.storyboard in Resources */,
+				63E041BB1F0F6F1C0046AD6F /* Assets.xcassets in Resources */,
+				63E041B91F0F6F1C0046AD6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E041E21F0F75560046AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D125EAE9D58BE24DD5F702 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJBannerViewDemo/Pods-YJBannerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA9AB8089602B174611EE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJBannerViewDemo/Pods-YJBannerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588EB8E72A87134E76733FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E041AC1F0F6F1C0046AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E041DE1F0F75060046AD6F /* YJBannerView.swift in Sources */,
+				63E041F51F0F7C8C0046AD6F /* YJBannerViewCell.swift in Sources */,
+				63E041B61F0F6F1C0046AD6F /* ViewController.swift in Sources */,
+				63E041B41F0F6F1C0046AD6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E041DF1F0F75560046AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E041F11F0F756A0046AD6F /* YJBannerView.swift in Sources */,
+				63E041F61F0F7C8C0046AD6F /* YJBannerViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E041B71F0F6F1C0046AD6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E041B81F0F6F1C0046AD6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E041BC1F0F6F1C0046AD6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E041BD1F0F6F1C0046AD6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E041C01F0F6F1C0046AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E041C11F0F6F1C0046AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E041C31F0F6F1C0046AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5447353997F32A6C8D48DF43 /* Pods-YJBannerViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				INFOPLIST_FILE = YJBannerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63E041C41F0F6F1C0046AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9854A4C160F1343ABE07A863 /* Pods-YJBannerViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				INFOPLIST_FILE = YJBannerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.de;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		63E041EE1F0F75560046AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YJBannerViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.YJBannerViewFramework;
+				PRODUCT_MODULE_NAME = YJBannerViewSwift;
+				PRODUCT_NAME = YJBannerViewSwift;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63E041EF1F0F75560046AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 33K3DU6932;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YJBannerViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houmanager.YJBannerViewFramework;
+				PRODUCT_MODULE_NAME = YJBannerViewSwift;
+				PRODUCT_NAME = YJBannerViewSwift;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E041AB1F0F6F1C0046AD6F /* Build configuration list for PBXProject "YJBannerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E041C01F0F6F1C0046AD6F /* Debug */,
+				63E041C11F0F6F1C0046AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E041C21F0F6F1C0046AD6F /* Build configuration list for PBXNativeTarget "YJBannerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E041C31F0F6F1C0046AD6F /* Debug */,
+				63E041C41F0F6F1C0046AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E041ED1F0F75560046AD6F /* Build configuration list for PBXNativeTarget "YJBannerViewFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E041EE1F0F75560046AD6F /* Debug */,
+				63E041EF1F0F75560046AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E041A81F0F6F1C0046AD6F /* Project object */;
+}

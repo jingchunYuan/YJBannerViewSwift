@@ -1,0 +1,12 @@
+PODS:
+  - SwiftProgressHUD (0.0.5)
+
+DEPENDENCIES:
+  - SwiftProgressHUD
+
+SPEC CHECKSUMS:
+  SwiftProgressHUD: 74856c5d9538bad076d449c2a2c72af51e62ab84
+
+PODFILE CHECKSUM: a39c805206ece3fcb1a8bae889a02e11d6b156b0
+
+COCOAPODS: 1.2.1
